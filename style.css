@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Kotak lampu */
+.container {
+  height: 300px;
+  width: 88px;
+  background-color: rgba(87, 87, 87, 0.93);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 28px;
+  padding: 10px 0;
+}
+
+/* Lampu dasar */
+.lampu {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: #333; /* mati */
+  margin: 5px 0;
+}
+
+.hijau {
+  width: 68px;
+  height: 68px;
+}
+
+/* Efek nyala */
+.nyala {
+  box-shadow: 0 0 20px 5px currentColor;
+}
+
+/* Tiang */
+.container2 {
+  height: 100px;
+  width: 30px;
+  background-color: rgba(64, 64, 64, 0.93);
+  margin-top: -1px;
+}
+
+.container3 {
+  margin-top: 20px;
+  text-align: center;
+}
